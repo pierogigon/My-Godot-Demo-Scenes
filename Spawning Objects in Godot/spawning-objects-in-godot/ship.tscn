@@ -6,20 +6,21 @@
 [node name="Ship" type="Node2D"]
 script = ExtResource("1_4cq66")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="SpaceshipSprite" type="Sprite2D" parent="."]
+position = Vector2(613, 568)
 scale = Vector2(0.3, 0.3)
 texture = ExtResource("1_l3rv8")
 
-[node name="Guns" type="Node2D" parent="."]
+[node name="Guns" type="Node2D" parent="SpaceshipSprite"]
 
-[node name="GunPosition1" type="Node2D" parent="Guns"]
-position = Vector2(136, -138)
+[node name="GunPosition1" type="Node2D" parent="SpaceshipSprite/Guns"]
+position = Vector2(136.667, -126.667)
 
-[node name="GunPosition2" type="Node2D" parent="Guns"]
-position = Vector2(-134, -138)
+[node name="GunPosition2" type="Node2D" parent="SpaceshipSprite/Guns"]
+position = Vector2(-133.333, -133.333)
 
-[node name="GunPosition3" type="Node2D" parent="Guns"]
-position = Vector2(204, -108)
+[node name="GunPosition3" type="Node2D" parent="SpaceshipSprite/Guns"]
+position = Vector2(203.333, -106.667)
 
-[node name="GunPosition4" type="Node2D" parent="Guns"]
-position = Vector2(-204, -112)
+[node name="GunPosition4" type="Node2D" parent="SpaceshipSprite/Guns"]
+position = Vector2(-206.667, -106.667)
