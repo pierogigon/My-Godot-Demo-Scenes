@@ -2,7 +2,7 @@ extends Node2D
 
 #region Random Position Part 1: Defining Two Points
 @export var point_1: Vector2 = Vector2(50,50)
-@export var point_2: Vector2 = Vector2(1100,600)
+@export var point_2: Vector2 = Vector2(1870,1030)
 #endregion
 
 #region Spawning Objects Part 1: Saving the Object Blueprint
