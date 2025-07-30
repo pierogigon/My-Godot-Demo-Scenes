@@ -1,6 +1,6 @@
 extends Node3D
 
-#this node draws the rectangular region for the demo project. This is for demonstration purposes only, so you can see the region that powerups will spawn in. Credit to Acert Gaming on YouTube, whose tutorial I followed to create this visualizer.
+#This node draws the rectangular region for the demo project. This is for demonstration purposes only, so you can see the region that powerups will spawn in. Credit to Acert Gaming on YouTube, whose tutorial I followed to create this visualizer.
 
 var point_1: Vector3
 var point_2: Vector3
